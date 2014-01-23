@@ -4,7 +4,7 @@
 ##initialise it like : progbar = PrgBar(total) || while total  is the total of progress
 ##put the progress bar updater in the loop where you doing your
 ##treatment like : progbar.update(i)  || while i is the current progress
-##see last condition (main="__main__") ; you can try it .
+##see last condition (__name__="__main__") ; you can try it .
 ###############################################################################################
 import time,sys
 from math import ceil
